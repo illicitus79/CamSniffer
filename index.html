@@ -1,29 +1,42 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>CamSniffer Login</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylsheet" href="style/bootstrap.css" />
-        <link rel="stylsheet" href="style/app.css" />
-        <script src="script/bootstrap.js"></script>
-        <script src="script/script.js"></script>
-    </head>
-    <body>
-        <div class="container">
-            <div class="card">
+
+<head>
+    <title>CamSniffer Login</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style/bootstrap.css" />
+    <link rel="stylesheet" href="style/app.css" />
+    <script src="script/bootstrap.js"></script>
+    <script src="script/script.js"></script>
+</head>
+
+<body class="bg-gradient">
+    <div class="container">
+        <div class="my-auto">
+            <div class="card o-hidden border-0 shadow-lg my-5">
                 <div class="card-body">
                     <div class="row">
-                        <div class="col-lg-4 cambkg"></div>
-                        <div class="col-lg-4">
-                            <form class="form">
-                                <div class="form-group"></div>
-                                <input type="text" placeholder="User Name" class="form-control"/>
+                        <div class="col-lg-6 d-none d-lg-block cambkg"></div>
+                        <div class="col-lg-6 col-md-12 justify-center p5 text-center">
+                            
+                            <h1 class="h3 text-gray-900 mb-4"><span class="ProdName">Cam</span>Sniffer</h1>
+                            <h1 class="h4 text-gray-900 mb-4">LOGIN</h1>
+                            <form class="form lgform user">
+                                <div class="form-group ">
+                                    <input type="text" placeholder="User Name" class="form-control form-control-user" />
+                                </div>
+                                <div class="form-group ">
+                                    <input type="password" placeholder="Password" class="form-control form-control-user" />
+                                </div>
+                                <button type="submit" class="btn btn-success">Login </button>
                             </form>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </body>
+    </div>
+</body>
+
 </html>
