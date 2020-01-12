@@ -6,7 +6,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style/bootstrap.css" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Vollkorn&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/app.css" />
+    <link rel="icon" href="images/cctv.png">
     <script src="script/bootstrap.js"></script>
     <script src="script/script.js"></script>
 </head>
@@ -19,18 +22,21 @@
                     <div class="row">
                         <div class="col-lg-6 d-none d-lg-block cambkg"></div>
                         <div class="col-lg-6 col-md-12 justify-center p5 text-center">
-                            
-                            <h1 class="h3 text-gray-900 mb-4"><span class="ProdName">Cam</span>Sniffer</h1>
-                            <h1 class="h4 text-gray-900 mb-4">LOGIN</h1>
-                            <form class="form lgform user">
-                                <div class="form-group ">
-                                    <input type="text" placeholder="User Name" class="form-control form-control-user" />
-                                </div>
-                                <div class="form-group ">
-                                    <input type="password" placeholder="Password" class="form-control form-control-user" />
-                                </div>
-                                <button type="submit" class="btn btn-success">Login </button>
-                            </form>
+                            <div class="login-form">
+                                <h1 class="h3 text-gray-900 mb-4 product"><span class="ProdName">Cam</span>Sniffer</h1>
+                                <h1 class="h4 text-gray-900 mb-4">LOGIN</h1>
+                                <form class="form lgform user">
+                                    <div class="form-group ">
+                                        <input type="text" placeholder="User Name" class="form-control form-control-user" required />
+                                        <i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="form-group ">
+                                        <input type="password" placeholder="Password" class="form-control form-control-user" />
+                                        <i class="fa fa-lock fa-lg fa-fw" aria-hidden="true"></i>
+                                    </div>
+                                    <button type="submit" class="btn mb-4">Login </button>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>

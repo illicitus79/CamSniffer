@@ -1,38 +1,104 @@
-.bg-gradient{
-    padding:0;
-    background: #D3CCE3;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.bg-gradient {
+    padding: 0;
+    /*background: #D3CCE3; 
+background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);
+background: linear-gradient(to right, #E9E4F0, #D3CCE3); 
+    background-size: cover;*/
+    background: #F0F2F0;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F0F2F0, #050B26);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F0F2F0, #050B26);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 
+.cambkg {
+    background-image: url("../images/loginBack.jpg");
     background-size: cover;
-}
-
-.cambkg{
-    background-image:url("../images/loginBack.jpg");
-    background-size:cover;
     background-repeat: repeat;
-    max-height:100%;
-    min-height:700px;
-    
+    max-height: 100%;
+    min-height: 700px;
 }
 
-.lgform{
-    display:inline-block;
+.lgform {
+    display: inline-block;
+    margin-bottom: 150px;
 }
 
-.card-body{
-    padding:0;
-    border-radius:20px;
+.card-body {
+    padding: 0;
+    border-radius: 20px;
 }
 
-.ProdName{
-    color:#fff700;
+.login-form {
+    margin-top: 150px;
+}
+
+.form-group input {
+    padding-left: 50px;
+    letter-spacing: 1px;
+}
+
+.form-group {
+    position: relative;
+}
+
+.form-group i {
+    position: absolute;
+    left: 0;
+    top: 8px;
+    padding: 7px 0 0 12px;
+    color: #ddd;
+}
+
+.form-group input[type=text]:focus+i {
+    color: dodgerblue;
+}
+
+.form-group input[type=password]:focus+i {
+    color: #32CD32;
+}
+
+.ProdName {
+    color: #F0033B;
+    /*color:#ffde00;*/
     font-weight: bold;
-    border-bottom:2px solid darkblue;
+    /*border-bottom: 1px solid darkblue;*/
+    text-decoration: underline;
+    text-decoration-color: darkblue;
+    font-size: 35px;
+    padding-bottom: 0px;
 }
 
-.form-control-user{
-    height:45px;
-    padding:5px;
-    width:300px;
+.form-control-user {
+    height: 45px;
+    padding: 5px;
+    width: 300px;
+}
+
+.product {
+    font-family: 'Vollkorn', serif, Bookman, monospace;
+}
+
+.login-form button {
+    background-color: #AA0D58;
+    color: #fff;
+    width: 150px;
+    padding: 10px;
+    border: 0;
+}
+
+.login-form button:hover {
+    background-color: #670007;
+}
+
+.login-form button:active {
+    background-color: #650009 !important;
+    border: 1px solid #AA0D58 !important;
+}
+
+@media screen and (max-width: 758px) {
+    .form-control-user {
+        width: 200px;
+    }
 }
