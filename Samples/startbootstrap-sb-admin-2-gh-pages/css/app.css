@@ -1,0 +1,125 @@
+
+/* Dashboard */
+
+.bg-dashboard{
+    padding: 0;
+    background: #f2f4f4; 
+    font-family: 'Rubik', sans-serif;
+}
+
+#sidebar{
+    border-right:solid 1px #dfe3e7;
+}
+
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+
+
+p {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #8494a7;
+}
+
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+#sidebar {
+    width: 250px;
+    
+    height: 100vh;
+    /* z-index: 999; */
+    background: #f2f4f4;
+    color: #8494a7;
+    transition: all 0.3s;
+}
+
+#sidebar .sidebar-header {
+    font-family: 'Rubik', sans-serif;
+    padding: 20px 20px 0 20px;
+    background: #f2f4f4;
+}
+
+#sidebar ul.components {
+    padding:0 0 20px 20px;
+    font-family: 'Rubik', sans-serif;
+    /* border-bottom: 1px solid #47748b; */
+}
+.dashboard-logo{
+    height:35px;
+    width:35px;
+    float:left;
+    margin-right:5px;
+}
+
+
+#sidebar ul p {
+    color: silver;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+#sidebar ul li a:hover {
+    color: dodgerblue;
+    background: #fff;
+}
+
+#sidebar ul li.active > a, a[aria-expanded="true"] {
+    color: rgb(48, 44, 44);
+    background: #f2f4f4;
+}
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #f2f4f4;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.brandname {
+    color: #F0033B;
+    /*color:#ffde00;*/
+    font-weight: bold;
+    /*border-bottom: 1px solid darkblue;*/
+    text-decoration: underline;
+    text-decoration-color: darkblue;
+    font-size: 30px;
+    padding-bottom: 0px;
+}
+.dashboard-btn-wrap{
+    padding:10px;
+}
+
+.dashboard-button{
+    display:relative;
+    width:100%;
+    font-family: 'Rubik', sans-serif;
+    justify-content: center;
+    text-align:center;
+    border:1px solid #dfe3e7;
+    color:#8494a7;
+    font-size:15px;
+}
+
+.dashboard-button:hover{
+    color:dodgerblue;
+    background-color:#fff;
+    border:1px solid white;
+}
+
+.dashboard-button i{
+    float:left;
+    font-size:20px;
+}
